@@ -5,6 +5,11 @@ resource "azurerm_resource_group" "testrg" {
 }
 
 
+
+
+
+
+
 resource "azurerm_storage_account" "testsa" {
   name                     = "testsa"
   resource_group_name      = azurerm_resource_group.testrg.name
