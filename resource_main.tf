@@ -17,4 +17,11 @@ name = "test_rg"
 location = "eastus"
 
 }
+
+resource "azurerm_resource_group" "rgtest03" {
+name = "test_rg01" 
+location = "eastus"
+
+}
+
  
